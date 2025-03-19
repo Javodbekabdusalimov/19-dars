@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 46px 0;
+}
+
+.container {
+  width: 1179px;
+  margin: 0 auto;
+}
+
+.logo_rounded {
+  width: 41px;
+  height: 41px;
+  background-color: blue;
+  font-family: Mulish;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: Mulish;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #1f1534;
+  transition: all 0.5s;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.hero_section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 91px;
+}
+
+.left-side {
+  width: 430px;
+}
+
+.left-side h1 {
+  font-family: Mulish;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 56px;
+  letter-spacing: 0%;
+}
+
+.left-side p {
+  font-family: Mulish;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #7d7987;
+  margin-top: 26px;
+  margin-bottom: 35px;
+}
+
+.left-side button {
+  font-family: Mulish;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  padding: 15px 38px;
+  background-color: blue;
+  border-radius: 55px;
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+
+.left-side button:hover {
+  color: blue;
+  background-color: white;
+  border: 1px solid blue;
+}
+.orta {
+  width: 1180px;
+  height: 801px;
+
+  margin-left: 143px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.top {
+  width: 952px;
+  height: 179.35023498535156px;
+}
+.sarlavha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 61px;
+}
+.matn {
+  font-family: Mulish;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.battom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.bolasi {
+  width: 380px;
+  height: 380px;
+  background-color: #e7e7e7;
+  border-radius: 20px;
+  padding: 0px 38px;
+  margin-left: 10px;
+}
+.bolasi img {
+  width: 96.9054183959961px;
+  height: 93.83370208740234px;
+  margin: 68px 0px 0px 38px;
+}
+.bolasi:hover {
+  background-color: aqua;
+}
+.tugma {
+  width: 200px;
+  height: 100px;
+  top: 1785px;
+  left: 639px;
+  border-radius: 55px;
+  border: 0% solid blue;
+}
+.tugma:hover {
+  background-color: blue;
+}
